@@ -1,14 +1,14 @@
-# primero vamos a utilizar variables, l y x seran nuestos variables
-# Ahora vamos a poner valor a nuestras variables 
-l = 10
-x = 8
-# ahora vamos a proceder a multiplicar y dividir las variables
-# para multiplicar en python se utiliza esto "*" para sumar utilizaremos esto "+"
-l = 10
-x = 8 
+# es otra manera de sumar ahora vamos a pedir al usario la suma que desea hacer y tambien con la multiplicacion
+l = int(input("Ingrese tu primer numero para sumar: "))
+x = int(input("Ingrese tu numero al que quieres sumar: "))
 
-multiplicar = l * x 
-Suma = l + x
+suma = l + x
 
-print("la suma es", Suma)
-print("La multiplicacion es", multiplicar)
+a = int(input("Ingrese tu primer numero para multiplicar: "))
+e = int(input("Ingrese tu numero al que quieres multiplicar: "))
+
+multiplicacion = a * e 
+
+print("Tu suma es ", suma) 
+print("tu multiplicacion es ",multiplicacion)
+
