@@ -1,1 +1,4 @@
-# primero vamos a utilizar variables, l y x seran nuestos variables
+# Ahora vamos a poner valor a nuestras variables 
+l = 10
+x = 8
+
